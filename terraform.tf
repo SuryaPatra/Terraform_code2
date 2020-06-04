@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "surya_accenture2"
+    organization = "Terraform_code2"
     workspaces {
       name = "Terraform_code2"
     }
