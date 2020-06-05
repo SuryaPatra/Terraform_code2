@@ -2,7 +2,7 @@ import "tfrun"
 import "decimal"
 
 within_budget = rule {
-  decimal.new(tfrun.cost_estimate.proposed_monthly_cost).less_than(50)
+  decimal.new(tfrun.cost_estimate.proposed_monthly_cost).less_than(100)
 }
 
 main = rule {
