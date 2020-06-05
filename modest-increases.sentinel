@@ -2,7 +2,7 @@ import "tfrun"
 import "decimal"
 
 within_increase = rule {
-  decimal.new(tfrun.cost_estimate.delta_monthly_cost).less_than(10)
+  decimal.new(tfrun.cost_estimate.delta_monthly_cost).less_than(50)
 }
 
 main = rule {
