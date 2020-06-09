@@ -8,5 +8,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
+    ttl  = "60"
+    owner = "amazon"
   }
 }
